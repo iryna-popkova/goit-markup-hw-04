@@ -206,6 +206,47 @@ a.current {
 .values .item {
   width: calc((100% - 72px) / 4);
 }
+.strategy::before {
+  content: "";
+  display: block;
+  height: 112px;
+  background-color: #f4f4fd;
+  background-image: url(../images/Vector.svg);
+  background-repeat: no-repeat;
+  background-size: 59.72px, 64px, contain;
+  background-position: center;
+}
+.punctuality::before {
+  content: "";
+  display: block;
+  height: 112px;
+  background-color: #f4f4fd;
+  background-image: url(../images/Vector-2.svg);
+  background-repeat: no-repeat;
+  background-size: 61.22px, 64px, contain;
+  background-position: center;
+}
+.diligence::before {
+  content: "";
+  display: block;
+  height: 112px;
+  background-color: #f4f4fd;
+  background-image: url(../images/Vector-3.svg);
+  background-repeat: no-repeat;
+  background-size: 64px, 49.09px, contain;
+  background-position: center;
+}
+
+.technologies::before {
+  content: "";
+  display: block;
+  height: 112px;
+  background-color: #f4f4fd;
+  background-image: url(../images/astronaut\ 1.svg);
+  background-repeat: no-repeat;
+  background-size: 64px, 64px, contain;
+  background-position: center;
+}
 
 /* what we are doing */
 
