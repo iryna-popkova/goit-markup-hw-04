@@ -384,11 +384,9 @@ a.current {
   height: 40px;
   background: #404bbf;
   border-radius: 50%;
+  text-align: center;
 }
 
-.social-item {
-  position: 50% 50%;
-}
 /* buttoms style */
 
 .button {
