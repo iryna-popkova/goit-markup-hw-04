@@ -386,7 +386,10 @@ a.current {
   border-radius: 50%;
   text-align: center;
 }
-
+.social-icon {
+  margin: auto;
+  display: inline-block;
+}
 /* buttoms style */
 
 .button {
