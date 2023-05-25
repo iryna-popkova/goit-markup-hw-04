@@ -207,6 +207,24 @@ a.current {
 .values .item {
   width: calc((100% - 72px) / 4);
 }
+
+.icon-box {
+  display: inline-block;
+  width: 264px;
+  height: 112px;
+  background-color: var(--additional-color);
+  margin: 0;
+  padding: 0;
+}
+.value-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  
 .strategy::before {
   content: "";
   display: block;
@@ -247,7 +265,7 @@ a.current {
   background-repeat: no-repeat;
   background-size: 64px, 64px, contain;
   background-position: center;
-}
+} */
 
 /* what we are doing */
 
@@ -279,6 +297,7 @@ a.current {
   background: var(--standart-color);
   width: calc((1158px - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  margin: 0;
 }
 .team-list {
   display: flex;
@@ -317,6 +336,10 @@ a.current {
   padding: 32px 16px;
 }
 
+.team-social {
+  margin: 0;
+  padding: 0;
+}
 /* customers*/
 
 .customers-list {
@@ -332,7 +355,8 @@ a.current {
   border: 1px solid var(--Customer-icons);
   fill: var(--Customer-icons);
 }
-.customer-icon:hover {
+.customer-icon:hover,
+.customer-icon:focus {
   fill: var(--focus-color);
   border: 1px solid var(--focus-color);
 }
@@ -354,7 +378,7 @@ a.current {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 16px;
+  margin: 0;
 }
 
 .footer-accent {
@@ -367,10 +391,16 @@ a.current {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin: 0;
+  margin-top: 16px;
   padding: 0;
   width: 264px;
 }
 
+.footer-text2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
 .footer {
   display: flex;
   gap: 120px;
@@ -384,7 +414,6 @@ a.current {
 .social-list {
   display: flex;
   margin: 0;
-  margin-top: 16px;
   padding: 0;
   gap: 16px;
 }
@@ -392,9 +421,8 @@ a.current {
 .social-item {
   width: 40px;
   height: 40px;
-  background: #404bbf;
+  background-color: #404bbf;
   border-radius: 50%;
-  text-align: center;
 }
 .social-ref {
   width: 100%;
@@ -402,6 +430,10 @@ a.current {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #ffffff;
+}
+.social-item:hover {
+  background-color: green;
 }
 
 /* buttoms style */
