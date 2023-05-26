@@ -413,6 +413,8 @@ a.current {
   gap: 120px;
 }
 
+/* social media */
+
 .social-media {
   padding-top: 0;
   padding-bottom: 0;
@@ -430,7 +432,7 @@ a.current {
 .social-item {
   width: 40px;
   height: 40px;
-  background-color: #404bbf;
+  background-color: var(--accent-color);
   border-radius: 50%;
 }
 .social-ref {
@@ -439,10 +441,15 @@ a.current {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #ffffff;
+  fill: var(--standart-color);
 }
-.social-item:hover {
+.social-item:hover,
+.social-item:focus {
   background-color: var(--social-hover);
+}
+.team:hover,
+.team:focus {
+  background-color: var(--focus-color);
 }
 
 /* buttoms style */
