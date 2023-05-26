@@ -447,8 +447,8 @@ a.current {
 .social-item:focus {
   background-color: var(--social-hover);
 }
-.team:hover,
-.team:focus {
+.social-item.team:hover,
+.social-item.team:focus {
   background-color: var(--focus-color);
 }
 
