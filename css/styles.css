@@ -7,6 +7,7 @@
   --focus-color: #404bbf;
   --border-color: #e7e9fc;
   --Customer-icons: #8e8f99;
+  --social-hover: #31d0aa;
 }
 
 /* body style */
@@ -209,19 +210,17 @@ a.current {
 }
 
 .icon-box {
-  display: inline-block;
+  display: flex;
   width: 264px;
   height: 112px;
   background-color: var(--additional-color);
-  margin: 0;
-  padding: 0;
+  justify-content: center;
+  align-items: center;
 }
+
 .value-icon {
   width: 64px;
   height: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /*  
@@ -333,12 +332,18 @@ a.current {
 
 .team-details {
   text-align: center;
-  padding: 32px 16px;
+  padding: 32px 16px 0px 16px;
 }
 
 .team-social {
   margin: 0;
   padding: 0;
+}
+.team-social {
+  margin-bottom: 32px;
+  margin-top: 8px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 /* customers*/
 
@@ -416,6 +421,8 @@ a.current {
   margin: 0;
   padding: 0;
   gap: 16px;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-item {
@@ -433,7 +440,7 @@ a.current {
   fill: #ffffff;
 }
 .social-item:hover {
-  background-color: green;
+  background-color: var(--social-hover);
 }
 
 /* buttoms style */
