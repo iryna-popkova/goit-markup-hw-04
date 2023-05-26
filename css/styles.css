@@ -297,6 +297,8 @@ a.current {
   width: calc((1158px - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   margin: 0;
+  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
+    0px 1px 6px 0px #2e2f4214;
 }
 .team-list {
   display: flex;
@@ -494,6 +496,7 @@ a.current {
   color: var(--standart-color);
   background-color: var(--focus-color);
   border: 1px solid transparent;
+  box-shadow: 0px 4px 4px 0px #00000026;
 }
 
 /* portfolio style */
@@ -529,6 +532,13 @@ a.current {
   margin-right: 24px;
   margin-bottom: 48px;
 }
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
+    0px 1px 6px 0px #2e2f4214;
+}
+
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
 }
