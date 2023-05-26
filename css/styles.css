@@ -423,6 +423,8 @@ a.current {
   margin: 0;
   padding: 0;
   margin-bottom: 16px;
+  font-weight: 500;
+  color: var(--standart-color);
 }
 .footer {
   display: flex;
@@ -441,6 +443,15 @@ a.current {
   margin: 0;
   padding: 0;
   gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-list-footer {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
   justify-content: center;
   align-items: center;
 }
