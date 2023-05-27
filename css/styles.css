@@ -523,6 +523,7 @@ a.current {
   min-width: 169px;
   height: 56px;
   border: none;
+  box-shadow: 0px 4px 4px 0px #00000026;
 }
 .button.order:hover,
 .button.order:focus {
