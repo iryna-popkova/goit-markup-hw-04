@@ -380,7 +380,7 @@ a.current {
 }
 
 .customer-icon {
-  fill: var(--Customer-icons);
+  fill: currentColor;
 }
 .customer-ref:hover,
 .customer-ref:focus {
@@ -456,8 +456,11 @@ a.current {
 
 .footer {
   display: flex;
-  gap: 120px;
   align-items: baseline;
+}
+
+.footer-first {
+  margin-right: 120px;
 }
 
 /* social media footer */
